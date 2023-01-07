@@ -1,0 +1,135 @@
+/************ Custom Font ************/
+@font-face {
+  font-family: Centra;
+  src: url('./assets/font/CentraNo2-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Centra;
+  src: url('./assets/font/CentraNo2-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Centra;
+  src: url('./assets/font/CentraNo2-Book.ttf');
+  font-weight: 400;
+}
+
+/************ Default Css ************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #dde1e7 !important;
+  color: #fff !important;
+  font-family: 'Centra', sans-serif !important;
+}
+
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+
+/************ header Css ************/
+.header {
+  margin-top: 0;
+  padding: 50px 0 100px 0;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+/*** table css ***/
+
+.table-bx {
+  overflow-x: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-shadow: 0 2px 15px rgba(64, 64, 64, .7);
+  border-radius: 12px;
+  margin-bottom: 50px;
+}
+
+.margin {
+  margin-left: 20px;
+}
+
+.table-button {
+  border-collapse: collapse;
+  padding: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-spacing: 0;
+  box-shadow: 0 2px 15px rgba(64, 64, 64, .7);
+  border-radius: 12px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.table-button:hover {
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%) !important;
+}
+
+.push-table-button {
+  border-collapse: collapse;
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%) !important;
+  padding: 3px;
+  color: #fafafa;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-spacing: 0;
+  box-shadow: 0 2px 15px rgba(64, 64, 64, .7);
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+td,
+th {
+  text-align: left;
+  border-bottom: 1px solid rgb(201, 200, 200) !important;
+}
+
+
+th {
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%) !important;
+  color: #fafafa;
+  font-weight: 700;
+  font-family: 'Centra', sans-serif !important;
+
+}
+
+tr {
+  text-align: left;
+  color: #202020;
+  font-family: 'Centra', sans-serif !important;
+}
+
+tr:hover {
+  background-color: #c2c2c2;
+}
