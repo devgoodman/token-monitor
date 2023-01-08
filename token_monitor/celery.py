@@ -16,8 +16,8 @@ w3 = Web3(Web3.HTTPProvider(binance_testnet_rpc_url,
           request_kwargs={'timeout': 60}))
 
 # ключ etherscan
-ETHERSCAN_API_KEY = '2YP969R63AA4198CSD7JVAA1QDH6HDBWIX'
-#ETHERSCAN_API_KEY = ''
+
+ETHERSCAN_API_KEY = ''
 
 # ускорение работы
 patch_web3(w3)
