@@ -2,6 +2,7 @@
 
 This repository contains the Full-Stack web3 app. Provides the last 100 token transactions on the Ethereum Goerli testnet, with multiple filters by transaction method. Which is built using React frontend and Django Backend(Django Rest Framework, Celery, Redis, Cache)
 
+![alt text](https://raw.githubusercontent.com/devgoodman/token-monitor/blob/main/screenshot.png)
 
 ### Setup
 
